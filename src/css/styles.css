@@ -16,3 +16,47 @@
 @import url('./badges.css');
 @import url('./back-link.css');
 @import url('./footer.css');
+
+
+/*  Gallary  */
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  max-width: 1128px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.gallery-item {
+  list-style: none;
+  max-width: calc((100% - 48px) / 3);
+  width: 100%;
+}
+
+.gallery-image {
+  width: 100%;
+  display: block;
+  height: auto;
+  cursor: -moz-zoom-in;
+  transition: transform 0.2s cubic-bezier(0.39, 0.575, 0.565, 1);
+}
+
+.gallery-image:hover {
+  transform: scale(1.05);
+}
+
+
+/*   Form   */
+
+
+
